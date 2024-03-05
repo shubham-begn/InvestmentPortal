@@ -1,0 +1,35 @@
+/* formcard.css */
+.card {
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    margin: 10px;
+  }
+  
+  .img-section {
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .image {
+    width: 100px; /* Adjust image size as needed */
+    height: 100px; /* Adjust image size as needed */
+    border-radius: 50%; /* Make image round */
+  }
+  
+  .content-area {
+    flex: 1;
+  }
+  
+  .content-area h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .content-area p {
+    margin: 5px 0;
+  }
+  
